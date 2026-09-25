@@ -1,0 +1,106 @@
+/* Main dashboard container */
+.dashboard {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 2rem auto;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Title */
+.dashboard h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  color: #1e40af;
+  text-align: center;
+}
+
+/* Section boxes */
+.section {
+  margin-bottom: 2rem;
+  padding: 1rem 1.2rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  background: #f9fafb;
+  transition: 0.3s;
+}
+
+.section:hover {
+  background: #f3f4f6;
+}
+
+.section h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.8rem;
+  color: #111827;
+}
+
+/* Event & Coordinator lists */
+.section ul {
+  list-style: disc;
+  margin-left: 1.5rem;
+  color: #374151;
+}
+
+.section li {
+  margin: 0.3rem 0;
+}
+
+/* Event selection dropdown */
+select {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  font-size: 1rem;
+  margin: 0.5rem 0 1rem 0;
+  background: #fff;
+  transition: 0.3s;
+}
+
+select:focus {
+  border-color: #2563eb;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.25);
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+/* Register button */
+.btn.success {
+  background: #16a34a;
+  color: #fff;
+}
+
+.btn.success:hover {
+  background: #15803d;
+}
+
+/* Logout button */
+.btn.danger {
+  background: #dc2626;
+  color: #fff;
+  width: 100%;
+  margin-top: 1.5rem;
+}
+
+.btn.danger:hover {
+  background: #b91c1c;
+}

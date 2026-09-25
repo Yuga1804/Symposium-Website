@@ -1,0 +1,76 @@
+/* registerPage.css */
+
+.register-page {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 80px;
+   background: linear-gradient(135deg, pink, #9333ea);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.register-page h2 {
+  margin-bottom: 15px;
+  color: black;
+}
+
+.register-page p {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: black;
+}
+
+.register-page input[type="text"],
+.register-page input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid black;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.qr-section {
+  margin: 20px 0;
+}
+
+.qr-section h4 {
+  margin-bottom: 10px;
+  color: #444;
+}
+
+.qr-section img {
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 5px;
+  background: #fafafa;
+}
+
+.register-page button {
+  margin: 10px 5px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.3s ease;
+}
+
+.register-page .btn.success {
+  background: #28a745;
+  color: white;
+}
+
+.register-page .btn.success:hover {
+  background: #218838;
+}
+
+.register-page .btn.danger {
+  background: #dc3545;
+  color: white;
+}
+
+.register-page .btn.danger:hover {
+  background: #c82333;
+}
